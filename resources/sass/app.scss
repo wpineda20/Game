@@ -13,3 +13,131 @@
 @import url("https://fonts.googleapis.com/css?family=Material+Icons");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 @import url("https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css");
+
+.card-body {
+    background-color: #23bcfd !important;
+    border: solid 3px black;
+    border-radius: 25px !important;
+    -webkit-box-shadow: 4px 4px 14px 1px rgba(210, 210, 210, 0.911) !important;
+    box-shadow: 4px 4px 12px 1px rgba(210, 210, 210, 0.911) !important;
+}
+
+.btn-login {
+    border-radius: 20px;
+    color: white;
+    background-color: #dc3545;
+    padding-left: 5.5em;
+    padding-right: 5.5rem;
+}
+.btn-login:hover {
+    border-radius: 20px;
+    color: white;
+    background-color: #dc3545;
+    padding-left: 5.5em;
+    padding-right: 5.5rem;
+}
+
+.form-control {
+    border: none !important;
+    background-color: white !important;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.icon-login {
+    padding: 5px;
+    min-width: 40px;
+    display: inline-block;
+    font-size: 1.2rem;
+    color: rgb(170, 168, 168);
+    margin-top: 3px;
+    margin-left: -35px;
+    cursor: pointer;
+}
+
+.form-control {
+    display: unset !important;
+}
+
+.fun {
+    max-width: 130px;
+    max-height: 130px;
+}
+
+.btn-nav-login {
+    border-radius: 20px;
+    color: white;
+    background-color: #dc3545;
+    padding-left: 2.5em;
+    padding-right: 2.5rem;
+}
+.btn-nav-login:hover {
+    border-radius: 20px;
+    color: white;
+    background-color: #dc3545;
+    padding-left: 2.5em;
+    padding-right: 2.5rem;
+}
+
+.btn-nav-register {
+    border-radius: 20px;
+    color: white;
+    background-color: #dc3545;
+    padding-left: 2.5em;
+    padding-right: 2.5rem;
+}
+.btn-nav-register:hover {
+    border-radius: 20px;
+    color: white;
+    background-color: #dc3545;
+    padding-left: 2.5em;
+    padding-right: 2.5rem;
+}
+
+.bg-yellow {
+    background-color: rgb(255, 230, 0) !important;
+    padding: 10px;
+    margin-right: 0;
+    border-radius: 10px;
+}
+.bg-grey {
+    background: grey;
+    padding: 10px;
+}
+
+.dropdown-menu {
+    background-color: #23bcfd !important;
+}
+
+.btn-nav-item {
+    color: white;
+    background-color: #dc3545;
+    padding-left: 1.5em;
+    padding-right: 1.5rem;
+}
+
+.btn-nav-item:hover {
+    color: white;
+    background-color: #dc3545;
+    padding-left: 1.5em;
+    padding-right: 1.5rem;
+}
+.set-nav-item {
+    color: white;
+    background-color: green;
+    padding-left: 2.5em;
+    padding-right: 2.5rem;
+}
+
+.set-nav-item:hover {
+    color: white;
+    background-color: green;
+    padding-left: 2.5em;
+    padding-right: 2.5rem;
+}
+
+.bg-hover:hover {
+    background-color: #23bcfd !important;
+}

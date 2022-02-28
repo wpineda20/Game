@@ -1,4 +1,7 @@
+import "bootstrap";
+import Vue from "vue";
 import Vuetify from 'vuetify';
+import es from "vuetify/src/locale/es.ts";
    
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -30,6 +33,18 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
  */
 
     Vue.use(Vuetify); 
+
+    export default new Vuetify({
+    lang: {
+        locales: {
+            es,
+        },
+        current: "es",
+    },
+    icons: {
+        iconfont: "md",
+    },
+});
 
    const app = new Vue({
     el: '#app',
