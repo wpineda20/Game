@@ -22,6 +22,15 @@
     box-shadow: 4px 4px 12px 1px rgba(210, 210, 210, 0.911) !important;
 }
 
+.card-body-game {
+    background-color: white !important;
+    border: solid 2px black;
+    padding: 4.5rem;
+    border-radius: 25px !important;
+    -webkit-box-shadow: 4px 4px 14px 1px rgba(210, 210, 210, 0.911) !important;
+    box-shadow: 4px 4px 12px 1px rgba(210, 210, 210, 0.911) !important;
+}
+
 .btn-login {
     border-radius: 20px;
     color: white;
@@ -140,4 +149,8 @@
 
 .bg-hover:hover {
     background-color: #23bcfd !important;
+}
+
+.navbar-brand {
+    margin-right: 0 !important;
 }

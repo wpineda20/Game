@@ -14,47 +14,46 @@
                         </div>
                     @endif
 
-                  <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+  <a href="#" style="text-decoration: none">
   <div class="col">
-    <div class="card-body" style="cursor: pointer">
-      
+    <div class="card-body-game" style="cursor: pointer">
       <div class="">
-          <a href="#" style="text-decoration: none">
-              <h1 class="text-center text-black card-title">GAME 1</h1>
-        </a> 
+        <h1 class="text-center text-black card-title">GAME 1</h1>
       </div>
     </div>
-  </div>
+        </div>
+      </a> 
+
+  <a href="#" style="text-decoration: none">
   <div class="col">
     <div class="">
-      
-      <div class="card-body" style="cursor: pointer">
-        <a href="#" style="text-decoration: none">
+      <div class="card-body-game" style="cursor: pointer">
             <h1 class="text-center text-black card-title">GAME 2</h1>
-        </a> 
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
+    </a> 
+
+  <a href="#" style="text-decoration: none">
   <div class="col">
-    <div class="card-body" style="cursor: pointer">
-      
+    <div class="card-body-game" style="cursor: pointer">
       <div class="">
-          <a href="#" style="text-decoration: none">
               <h1 class="text-center text-black card-title">GAME 3</h1>
-        </a> 
-      </div>
-    </div>
-  </div>
+            </div>
+          </div>
+        </div>
+      </a> 
+
+  <a href="#" style="text-decoration: none">
   <div class="col">
-    <div class="card-body" style="cursor: pointer">
-      
+    <div class="card-body-game" style="cursor: pointer">
       <div class="">
-          <a href="#" style="text-decoration: none">
               <h1 class="text-center text-black card-title">GAME 4</h1>
-        </a> 
-      </div>
-    </div>
-  </div>
+            </div>
+          </div>
+        </div>
+      </a> 
 </div>
   
 @endsection
