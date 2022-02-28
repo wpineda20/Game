@@ -80,13 +80,15 @@
                                 </a>
                                 <a class="dropdown-item bg-hover" href="{{ route('logout') }}"
                                     >
-                                    <i class="material-icons">volume_up</i>
+                                    <span class="material-icons">volume_up</span>
                                     {{ __('Music') }}
+                                    <span class="material-icons">toggle_on</span>
                                 </a>
                                 <a class="dropdown-item bg-hover" href="{{ route('logout') }}"
                                 >
-                                <i class="material-icons">music_note</i>
-                                {{ __('Sound') }}
+                                <span class="material-icons">music_note</span>
+                              <span class="mb-2"> {{ __('Sound') }} </span> 
+                                <span class="material-icons">toggle_off</span>
                             </a>
                             <a class="dropdown-item btn btn-nav-item text-center" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
