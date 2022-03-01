@@ -9,9 +9,9 @@
                     <span class="material-icons text-white" style="font-size: 4rem">cancel</span>
                     <h2 class="fw-bold text-white">Opps!</h2>
                     <h3 class=" text-white pb-3">You must be logged in to play any of these games.</h3>
-                     @if (Route::has('login'))
+                     @if (Route::has('register'))
                                 
-                                    <a class="btn btn-login shadow-none" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    <a class="btn btn-login shadow-none" href="{{ route('register') }}">{{ __('Register') }}</a>
                                
                     @endif
                 </div>
