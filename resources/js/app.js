@@ -2,6 +2,7 @@ import "bootstrap";
 import Vue from "vue";
 import Vuetify from 'vuetify';
 import es from "vuetify/src/locale/es.ts";
+
    
 /**
  * First we will load all of this project's JavaScript dependencies which

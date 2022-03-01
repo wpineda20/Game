@@ -10,8 +10,14 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
+    <script src="{{ mix('js/sweetalert2.all.min.js') }}" defer></script>
     <script src="{{ mix('js/app.js') }}" defer></script>
     <script src="{{ mix('js/showPassword.js') }}" defer></script>
+    <script src="{{ mix('js/numbers.js') }}" defer></script>
+    {{-- <script src="{{ mix('js/script.js') }}" defer></script> --}}
+    {{-- <script src="{{ mix('js/script2.js') }}" defer></script> --}}
+    {{-- <script src="{{ mix('js/script3.js') }}" defer></script> --}}
+    {{-- <script src="{{ mix('js/vue.min.js') }}" defer></script> --}}
     
 
     <!-- Fonts -->
@@ -30,7 +36,8 @@
             <div class="container">
                 @guest
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('ENGLISH IS FUN', 'ENGLISH IS FUN') }}
+                    {{-- {{ config('ENGLISH IS FUN', 'ENGLISH IS FUN') }} --}}
+                    <img src="{{ asset('img/Fun.png') }}" class="img-fluid fun" alt="Fun">
                 </a>
                 @endguest
                 @auth
@@ -47,9 +54,14 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
+                    @auth
                     <ul class="navbar-nav me-auto">
+                        <a href="{{ url('/home') }}">
 
+                            <img src="{{ asset('img/Fun.png') }}" class="img-fluid fun" alt="Fun">
+                        </a>
                     </ul>
+                    @endauth
                        
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">

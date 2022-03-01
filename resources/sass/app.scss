@@ -22,13 +22,35 @@
     box-shadow: 4px 4px 12px 1px rgba(210, 210, 210, 0.911) !important;
 }
 
-.card-body-game {
+.card-body-memory {
     background-color: white !important;
-    border: solid 2px black;
-    padding: 4.5rem;
+    border: solid 2px #23bcfd;
+    color: #23bcfd;
+    padding: 3.5rem;
     border-radius: 25px !important;
     -webkit-box-shadow: 4px 4px 14px 1px rgba(210, 210, 210, 0.911) !important;
     box-shadow: 4px 4px 12px 1px rgba(210, 210, 210, 0.911) !important;
+}
+
+.card-body-numbers {
+    background-color: white !important;
+    border: solid 2px #fd3023;
+    color: #fd3023;
+    padding: 3.5rem;
+    border-radius: 25px !important;
+    -webkit-box-shadow: 4px 4px 14px 1px rgba(210, 210, 210, 0.911) !important;
+    box-shadow: 4px 4px 12px 1px rgba(210, 210, 210, 0.911) !important;
+}
+
+.card-body-title {
+    background-color: white !important;
+    border: solid 2px #000;
+    color: #000;
+    padding: 1.5rem 0.5rem;
+    border-radius: 25px !important;
+    -webkit-box-shadow: 4px 4px 14px 1px rgba(210, 210, 210, 0.911) !important;
+    box-shadow: 4px 4px 12px 1px rgba(210, 210, 210, 0.911) !important;
+    max-width: 600px;
 }
 
 .btn-login {
@@ -154,3 +176,37 @@
 .navbar-brand {
     margin-right: 0 !important;
 }
+
+/*Hoja de estilos*/
+/*Hoja de estilos*/
+#entorno {
+    display: block;
+    margin: 0 auto;
+}
+
+#fondo {
+    opacity: 0.3;
+}
+
+img.card-img-top {
+    object-fit: cover;
+    cursor: pointer;
+    max-height: 150px !important;
+    max-width: 150px !important;
+}
+
+img.card-img-top.girar {
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+// body {
+//     padding-bottom: 70px;
+// }
